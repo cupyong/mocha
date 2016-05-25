@@ -1,0 +1,28 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupyong/mocha.git"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "cuoyong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cupyong/mocha/issues"
+  },
+  "homepage": "https://github.com/cupyong/mocha#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}

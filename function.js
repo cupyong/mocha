@@ -1,7 +1,21 @@
-var assert = require('assert');
+'use strict'
+let assert = require('assert');
  
-function add() {
-  return Array.prototype.slice.call(arguments).reduce(function(prev, curr) {
+// function add() {
+//   return Array.prototype.slice.call(arguments).reduce(function(prev, curr) {
+//     return prev + curr;
+//   }, 0);
+// }
+
+// function add() {
+//   return [].slice.call(arguments).reduce(function(prev, curr) {
+//     return prev + curr;
+//   }, 0);
+// }
+ 
+ function add() {
+   console.log(Array.from(arguments))
+    return Array.from(arguments).reduce(function(prev, curr) {
     return prev + curr;
   }, 0);
 }
